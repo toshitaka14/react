@@ -4,10 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Todo Rist</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>React prastic</h1>
-  <script src=main.js></script>
+<div class="input-area">
+<input placeholder= "TODOを入力" id="add-text"/>
+<button id="add-button">追加</button>
+</div>
+<div class="imcomplate-area"><p class="title">未完了のTODO</p>
+  <ul id="incomplete-list">
+  <div class="list-row">
+<li>TODOです</li>
+<button>完了</button>
+<button>削除</button></div>
+</div></ul>
+<div class="complete-area"><p class="title"></p>>完了したTODO</p>
+  <divl class="list-row">
+<li>TODOでした</li>
+<button>戻す</button></div>
+</div>
+  <script src=todo.js></script>
 </body>
 </html>
